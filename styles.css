@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 270px;
+    width: 280px;
+    height: 100%;
+    border-right: solid 3px #999;
+}
+
+nav header {
+    font-size: 25px;
+    margin: 15px;
+    margin-left: 35px;
+}
+
+.links-nav {
+    list-style: none;
+    padding: 0;
+    height: 88%;
+    overflow-y: auto;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    border-top: solid 1px #999;
+    padding: 10px 0 10px 25px;
+    font-size: 14px;
+}
+
+main {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 25px;
+}
+
+header {
+    font-size: 28px;
+}
+
+p,
+section ul {
+    font-size: 14px;
+    margin: 20px;
+    color: #444;
+    text-align: justify;
+}
+
+code {
+    display: block;
+    margin: 20px 40px;
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    color: #555;
+}
+
+
+@media (max-width:815px) {
+    main {
+        margin: 350px 30px 30px 10px;
+
+    }
+
+    #navbar {
+        position: absolute;
+        min-width: 420px;
+        height: 300px;
+        width: 100%;
+        top: 0;
+    }
+
+    nav header {
+        text-align: center;
+    }
+
+    .links-nav {
+        border: solid 1px #000;
+    }
+}
